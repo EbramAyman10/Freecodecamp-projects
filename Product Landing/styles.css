@@ -1,0 +1,156 @@
+body
+{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(238, 238, 238);
+
+}
+
+#header-img{
+  width: 350px;
+}
+.logo {
+  margin-left: 20px;
+}
+#header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgb(238, 238, 238);
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list li{
+  margin-right: 30px;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+}
+.section1{
+  text-align: center;
+  padding-top: 100px;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#email{
+  padding:3px 100px 3px 5px;
+  margin-bottom: 10px;
+}
+#submit{
+  background-color: rgb(241, 196, 15);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  padding: 5px 10px;
+}
+.section2{
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.Feature{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.Feature .header-logo{
+  color: rgb(255, 140, 0);
+  width: 100px;
+  text-align: center;
+}
+.title{
+    flex: 1;
+}
+.title h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.title p {
+  margin: 0;
+  color: #555;
+}
+.section3{
+  text-align: center;
+}
+
+.section4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.card{
+  border: 1px solid black;
+  text-align: center;
+  margin: 15px 7px;
+  width: 450px;
+}
+.card-title{
+  background-color: rgb(221, 221, 221);
+}
+.card-title h3{
+  margin: 0;
+  padding:10px 50px;
+}
+ul{
+  padding: 0;
+}
+.list-items{
+  list-style: none;
+  line-height: 25px;
+}
+.button button{
+  background-color: rgb(241, 196, 15);
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.footer{
+  background-color: rgb(221, 221, 221);
+  text-align: end;
+  padding: 10px 5px;
+}
+.footer ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+.footer ul li{
+  margin-right: 15px;
+}
+.footer p{
+  font-size: 12px;
+  color: rgb(76, 76, 76);
+
+}
+
+@media screen and (max-width:750px) {
+
+  .section4{
+    display: block;
+  }
+  
+}
