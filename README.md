@@ -22,12 +22,18 @@ https://ebramayman10.github.io/Freecodecamp-projects/
 
 4. **Technical Documentation Page**  
    A sidebar documentation layout with internal navigation and smooth scrolling.
+
+5. **Product Landing Page**
+   A landing page for a fictional product featuring navigation, a responsive layout, and embedded media.
    
+6. **Personal Portfolio**
+   A personal portfolio website to showcase my projects and skills using semantic HTML, responsive design, and smooth styling.  
 
 ## 🛠️ Technologies Used
 
 - HTML5  
-- CSS3  
+- CSS3
+- bootstrap
 - Responsive Web Design (Media Queries & Flexbox)  
 - Git & GitHub
 
